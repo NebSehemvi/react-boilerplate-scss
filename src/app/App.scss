@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  min-width: 800px;
+  min-height: 600px;
+  background-color: #F2F2F0;
+}
+
+:global(.app) {
+  height: 100vh;
+  display: flex;
+}

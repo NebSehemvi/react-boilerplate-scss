@@ -1,0 +1,30 @@
+.counter {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	background-color: #41806B;
+	color: #fff;
+	cursor: pointer;
+	font-size: 150px;
+}
+
+.controls {
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+
+	button {
+		flex: 1 1 50%;
+		cursor: pointer;
+	}
+}
+
+.wrapper {
+	width: 800px;
+	height: 600px;
+	align-self: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
